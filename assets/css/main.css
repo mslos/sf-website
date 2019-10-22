@@ -3897,11 +3897,18 @@ input, select, textarea {
 
 	#intro {
 		background-attachment: fixed;
-		background-image: url("images/intro.svg");
+		/*background-image: url("images/intro.svg");*/
 		background-position: top right;
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
 	}
+
+	.logo-intro {
+			position: relative !important;
+			top: 5%;
+			bottom: 5%;
+			height:4em;
+		}
 
 		#intro p {
 			font-size: 1.25em;
