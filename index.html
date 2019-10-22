@@ -6,7 +6,8 @@
 -->
 <html>
 	<head>
-		<title>Success First</title>
+		<title>Success First - IT Recruiting, Outsourcing and Management Consulting</title>
+		<!-- <img src="images/logo.jpg" alt="Success First"/> -->
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -14,12 +15,13 @@
 	</head>
 	<body class="is-preload">
 
-		<!-- Sidebar -->
+		<!-- Sidebar 
 			<section id="sidebar">
 				<div class="inner">
 					<nav>
 						<ul>
-							<li><a href="#intro">Domov</a></li>
+						
+				
 							<li><a href="#IT-professional">Pre IT profesionálov</a></li>
 							<li><a href="#companies">Pre spoločnosti</a></li>
 							<li><a href="#about">O nás</a></li>
@@ -27,7 +29,21 @@
 						</ul>
 					</nav>
 				</div>
-			</section>
+			</section> -->
+
+		<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="title"><img src="images/logo.jpg" class="logo-header"></a>
+				<!-- <img src="images/logo.jpg" class="logo-header"> -->
+				<nav>
+					<ul>
+							<li><a href="prof.html">Pre IT profesionálov</a></li>
+							<li><a href="companies.html">Pre spoločnosti</a></li>
+							<li><a href="index.html#about">O nás</a></li>
+							<li><a href="index.html#contact">Kontakt</a></li>
+					</ul>
+				</nav>
+			</header>
 
 		<!-- Wrapper -->
 			<div id="wrapper">
@@ -35,18 +51,19 @@
 				<!-- Intro -->
 					<section id="intro" class="wrapper style1 fullscreen fade-up">
 						<div class="inner">
-							<h1>Success First</h1>
-							<p>Pomôžeme Vám k dlhodobému úspechu!</p>
+<!-- 								<img src="images/logo.jpg" class="logo-main">
+ -->								<br>
+ 							<h2>Pomôžeme vám k úspechu</h2>
+								<p>Sme mladá, dynamická a flexibilná spoločnosť so skúsenosťami pri vyhľadávaní a nábore na pozície z oblasti informačných technológií ako aj s dlhoročnými skúsenosťami z výkonného riadenia stredne veľkých spoločností nielen na Slovensku.</p>
 							<ul class="actions">
-								<li><a href="#IT-professionals" class="button scrolly">Pre IT profesionálov</a></li>
+								<li><a href="#IT-professional" class="button scrolly">Pre IT profesionálov</a></li>
 								<li><a href="#companies" class="button scrolly">Pre spoločnosti</a></li>
-
 							</ul>
 						</div>
 					</section>
 
 				<!-- IT professionals -->
-					<section id="IT-professionals" class="wrapper style2 spotlights">
+					<section id="IT-professional" class="wrapper style3 spotlights">
 						<section>
 							<a href="#" class="image"><img src="images/pic01.jpg" alt="" data-position="center center" /></a>
 							<div class="content">
@@ -100,7 +117,7 @@
 					</section>
 
 				<!-- Three -->
-					<section id="three" class="wrapper style1 fade-up">
+					<section id="contact" class="wrapper style1 fade-up">
 						<div class="inner">
 							<h2>Máte záujem s nami pracovať? Napíšte nám!</h2>
 							<div class="split style1">
@@ -108,8 +125,12 @@
 									<form method="post" action="https://formspree.io/meyajozm" method="POST">
 										<div class="fields">
 											<div class="field half">
-												<label for="name">Meno</label>
-												<input type="text" name="name" id="name" />
+												<label for="first-name">Meno</label>
+												<input type="text" name="first-name" id="first-name" />
+											</div>
+											<div class="field half">
+												<label for="last-name">Priezvisko</label>
+												<input type="text" name="last-name" id="last-name" />
 											</div>
 											<div class="field half">
 												<label for="em-ail">Email</label>
@@ -123,6 +144,10 @@
 												<label for="message">Správa</label>
 												<textarea name="message" id="message" rows="5"></textarea>
 											</div>
+											<div class="field col-6 col-12-small">
+												<input type="checkbox" id="demo-copy" name="demo-copy">
+												<label for="demo-copy">Súhlasím so spracovaním osobných údajov</label>
+											</div>
 										</div>
 										<ul class="actions">
 											<li><a href="" class="button submit">Odošli</a></li>
@@ -132,23 +157,19 @@
 								<section>
 									<ul class="contact">
 										<li>
-											<h3>Adresa</h3>
-											<span>
-											<i>Success First s.r.o.</i><br />
-											Rovná 27<br />
-											Hlohovec, 92001<br />
-											Slovensko</span>
-										</li>
-										<li>
 											<h3>Email</h3>
-											<a href="mailto:sf.mail@gmail.com">sf.mail@gmail.com</a>
-										</li>
-										<li>
+											<a href="mailto:stefan.slosarik@gmai.com">stefan.slosarik@gmail.com</a>
+										</li><li>
 											<h3>Tel. číslo</h3>
-											<span>+421 905 464455</span>
+											<span>+421 905 253 078</span><br>
+											<span>+421 905 464 455</span>
 										</li>
 										<li>
-											<h3>Social</h3>
+											<span>IČO: 5079 3527</span><br>
+											<span>DIČ: 2120 4740 92</span>
+
+										<li>
+											<h3>LinkedIn</h3>
 											<ul class="icons">
 												<!--
 												<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
@@ -156,7 +177,7 @@
 												<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
 												<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
 											-->
-												<li><a href="https://sk.linkedin.com/in/stefanslosarik" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+												<li><a href="www.linkedin.com/company/successfirst" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
 											</ul>
 										</li>
 									</ul>
