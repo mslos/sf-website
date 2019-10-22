@@ -2536,19 +2536,19 @@ input, select, textarea {
 			}
 
 				.wrapper.style1 .icon.major:before {
-					color: #DFE0DC;
+					color: #3d3d3d;
 				}
 
 				.wrapper.style1-alt .icon.major:before {
-					color: #493382;
+					color: #3d3d3d;
 				}
 
 				.wrapper.style2 .icon.major:before {
-					color: #5052b5;
+					color: #3d3d3d;
 				}
 
 				.wrapper.style2-alt .icon.major:before {
-					color: #3e4094;
+					color: #3d3d3d;
 				}
 
 				.wrapper.style3 .icon.major:before {
@@ -3812,17 +3812,20 @@ input, select, textarea {
 		}
 			
 
+
+
 		.logo-main {
 			position: relative !important;
 			top: 10%;
-			bottom: 10%;
-			height:80%;
-			margin-right: 2em;
-			max-width: 100%;
+			bottom: 2em;
+			width:100%;
 		}
 
+			.logo-front {
+				display:none;
+			}
+		
 		@media screen and (max-width: 1280px) {
-
 
 
 			#sidebar {
@@ -3834,6 +3837,16 @@ input, select, textarea {
 				text-align: center;
 				top: 0;
 				width: 100%;
+			}
+
+			.logo-main {
+				position: relative !important;
+				top: 10%;
+				bottom: 10%;
+				height:80%;
+				width:auto;
+				margin-right: 3em;
+				max-width: 100%;
 			}
 
 				#sidebar > .inner {
@@ -3885,10 +3898,17 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 926px) {
+		@media screen and (max-width: 736px) {
 
 			#sidebar {
 				display: none;
+			}
+
+			.logo-front {
+				display: block;
+				width:80%;
+				top:10%;
+				bottom:10%;
 			}
 
 		}

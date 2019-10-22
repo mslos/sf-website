@@ -7,7 +7,6 @@
 <html>
 	<head>
 		<title>Success First - IT Recruiting, Outsourcing and Management Consulting</title>
-		<!-- <img src="images/logo.jpg" alt="Success First"/> -->
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -18,6 +17,7 @@
 		<!-- Sidebar  -->
 			<section id="sidebar">
 				<div class="inner">
+					<img src="images/logo-white.jpg" class="logo-main">
 					<nav>
 						<ul>
 							<li><a href="#IT-professional">Pre IT profesionálov</a></li>
@@ -49,10 +49,9 @@
 				<!-- Intro -->
 					<section id="intro" class="wrapper style1 fullscreen fade-up">
 						<div class="inner">
-<!-- 								<img src="images/logo.jpg" class="logo-main">
- -->							
- 							<img src="images/logo.jpg" class="logo-intro">
- 							<br><br>
+								<img src="images/logo-gray.jpg" class="logo-front">
+							
+ 							<br>
  							<p>Váš partner pre IT recruiting a outsourcing</p>
 						<!-- 		<p>Sme mladá, dynamická a flexibilná spoločnosť so skúsenosťami pri vyhľadávaní a nábore na pozície z oblasti informačných technológií ako aj s dlhoročnými skúsenosťami z výkonného riadenia stredne veľkých spoločností nielen na Slovensku.</p> -->
 							<ul class="actions">
@@ -152,39 +151,46 @@
 							<h2>Máte záujem s nami pracovať? Napíšte nám!</h2>
 							<div class="split style1">
 								<section>
-									<form method="post" action="https://formspree.io/meyajozm" method="POST">
+									<form action="https://formspree.io/meyajozm" method="POST">
 										<div class="fields">
 											<div class="field half">
-												<label for="first-name">Meno</label>
-												<input type="text" name="first-name" id="first-name" />
+												<label for="first-name">Meno*</label>
+												<input type="text" name="first-name" id="first-name" required/>
 											</div>
 											<div class="field half">
-												<label for="last-name">Priezvisko</label>
-												<input type="text" name="last-name" id="last-name" />
+												<label for="last-name">Priezvisko*</label>
+												<input type="text" name="last-name" id="last-name" required/>
 											</div>
 											<div class="field half">
-												<label for="em-ail">Email</label>
-												<input type="text" name="email" id="email" />
+												<label for="em-ail">Email*</label>
+												<input type="text" name="email" id="email" required/>
 											</div>
 											<div class="field half">
-												<label for="email">Telefónne číslo</label>
-												<input type="text" name="phone" id="phone" />
+												<label for="email">Telefónne číslo*</label>
+												<input type="text" name="phone" id="phone" required/>
 											</div>
 											<div class="field">
-												<label for="linkedin">Linked In</label>
+												<label for="linkedin">LinkedIn</label>
 												<input type="text" name="linkedin" id="linkedin" />
 											</div>
 											<div class="field">
-												<label for="message">Správa</label>
-												<textarea name="message" id="message" rows="5"></textarea>
+												<label for="message">Správa*</label>
+												<textarea name="message" id="message" rows="5" required></textarea>
 											</div>
-											<div class="field col-6 col-12-small">
-												<input type="checkbox" id="demo-copy" name="demo-copy">
-												<label for="demo-copy">Súhlasím so spracovaním osobných údajov</label>
+											<div class="field row">
+												<div class="col-sm-10">
+													<input type="checkbox" id="demo-copy" name="demo-copy" required>
+													<label for="demo-copy">Súhlasím so spracovaním osobných údajov*</label>
+												</div>
+												<div class="col-sm-2">
+												</div>
+												<div class="col-sm-2">
+													<p>* Povinné údaje</p>
+												</div>
 											</div>
 										</div>
 										<ul class="actions">
-											<li><a href="" class="button submit">Odošli</a></li>
+											<li><input type="submit" name="Odošli" class="button"></input></li>
 										</ul>
 									</form>
 								</section>
@@ -192,7 +198,7 @@
 									<ul class="contact">
 										<li>
 											<h3>Email</h3>
-											<a href="mailto:stefan.slosarik@gmai.com">stefan.slosarik@gmail.com</a>
+											<a href="mailto:stefan.slosarik@gmail.com">stefan.slosarik@gmail.com</a>
 										</li><li>
 											<h3>Telefónne číslo</h3>
 											<span>+421 (0) 905 253 078</span><br>
@@ -224,10 +230,10 @@
 			</div>
 
 		<!-- Footer -->
-			<footer id="footer" class="wrapper style1-alt">
+			<footer id="footer" class="wrapper style3">
 				<div class="inner">
 					<ul class="menu">
-						<li>&copy; Success First s.r.o.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						<li>&copy; SuccessFirst s.r.o.</li>
 					</ul>
 				</div>
 			</footer>
